@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faker = "*"
+scapy = "*"
+
+[dev-packages]
+pylint = "<2.0.0"
+
+[requires]
+python_version = "2.7"
